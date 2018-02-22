@@ -1,3 +1,4 @@
+# coding=utf-8
 import sys
 import pygame
 
@@ -16,6 +17,7 @@ def check_events(ship):
                 ship.moving_right = False
 
         print(event)
+
 
 def update_screen(ai_settings, screen, ship):
     """更行屏幕图像，并切换到新屏幕"""
